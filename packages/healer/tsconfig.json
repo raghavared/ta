@@ -1,0 +1,36 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "../core"
+    },
+    {
+      "path": "../store"
+    },
+    {
+      "path": "../agent-engine"
+    },
+    {
+      "path": "../issues"
+    },
+    {
+      "path": "../browser"
+    },
+    {
+      "path": "../generator"
+    },
+    {
+      "path": "../runner"
+    },
+    {
+      "path": "../memory"
+    }
+  ]
+}

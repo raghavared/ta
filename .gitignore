@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+
+# per-target workspace state (regenerable/heavy)
+.ta/ta.db
+.ta/ta.db-*
+.ta/snapshots/
+.ta/artifacts/
+.ta/agent-io/
+
+# playwright
+test-results/
+playwright-report/

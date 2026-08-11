@@ -1,0 +1,26 @@
+{
+  "name": "@ta/runner",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ta/core": "workspace:*",
+    "@ta/store": "workspace:*",
+    "drizzle-orm": "^0.38.0",
+    "execa": "^9.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

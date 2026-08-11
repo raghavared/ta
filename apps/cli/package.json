@@ -1,0 +1,42 @@
+{
+  "name": "@ta/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "ta": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@ta/agent-engine": "workspace:*",
+    "@ta/browser": "workspace:*",
+    "@ta/core": "workspace:*",
+    "@ta/design": "workspace:*",
+    "@ta/explorer": "workspace:*",
+    "@ta/generator": "workspace:*",
+    "@ta/healer": "workspace:*",
+    "@ta/issues": "workspace:*",
+    "@ta/planner": "workspace:*",
+    "@ta/report": "workspace:*",
+    "@ta/requirements": "workspace:*",
+    "@ta/runner": "workspace:*",
+    "@ta/server": "workspace:*",
+    "@ta/store": "workspace:*",
+    "commander": "^13.0.0",
+    "drizzle-orm": "^0.38.4",
+    "execa": "^9.5.0",
+    "jiti": "^2.7.0",
+    "picocolors": "^1.1.0",
+    "@ta/memory": "workspace:*",
+    "@ta/skills": "workspace:*",
+    "@ta/analyzer": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

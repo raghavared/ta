@@ -1,0 +1,32 @@
+{
+  "name": "@ta/healer",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ta/agent-engine": "workspace:*",
+    "@ta/core": "workspace:*",
+    "@ta/issues": "workspace:*",
+    "@ta/store": "workspace:*",
+    "drizzle-orm": "^0.38.0",
+    "zod": "^3.24.0",
+    "@ta/browser": "workspace:*",
+    "@ta/generator": "workspace:*",
+    "@ta/runner": "workspace:*",
+    "@ta/memory": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

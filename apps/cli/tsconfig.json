@@ -1,0 +1,63 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "../../packages/core"
+    },
+    {
+      "path": "../../packages/store"
+    },
+    {
+      "path": "../../packages/agent-engine"
+    },
+    {
+      "path": "../../packages/browser"
+    },
+    {
+      "path": "../../packages/explorer"
+    },
+    {
+      "path": "../../packages/planner"
+    },
+    {
+      "path": "../../packages/generator"
+    },
+    {
+      "path": "../../packages/runner"
+    },
+    {
+      "path": "../../packages/healer"
+    },
+    {
+      "path": "../../packages/issues"
+    },
+    {
+      "path": "../../packages/report"
+    },
+    {
+      "path": "../../packages/requirements"
+    },
+    {
+      "path": "../../packages/design"
+    },
+    {
+      "path": "../../packages/memory"
+    },
+    {
+      "path": "../../packages/skills"
+    },
+    {
+      "path": "../../packages/analyzer"
+    },
+    {
+      "path": "../server"
+    }
+  ]
+}

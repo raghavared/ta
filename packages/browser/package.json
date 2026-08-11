@@ -1,0 +1,25 @@
+{
+  "name": "@ta/browser",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "@ta/core": "workspace:*",
+    "playwright": "^1.50.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
